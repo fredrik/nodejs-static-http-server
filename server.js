@@ -1,8 +1,6 @@
 var sys         = require('sys'),
     path        = require('path'),
     http        = require('http'),
-    url         = require('url'),
-    querystring = require('querystring'),
     paperboy    = require('paperboy')
 
 var PUBLIC = path.join(path.dirname(__filename), 'public');
